@@ -1,6 +1,6 @@
 #!/bin/bash
-curl -L -o /tmp/the-aaroh-browser.deb https://github.com/aa425-aarohcharne/The-Aaroh-browser/releases/tag/v1
-sudo dpkg -i /tmp/the-aaroh-browser.deb
-sudo apt-get install -f -y
+wget https://github.com/aa425-aarohcharne/The-Aaroh-browser/releases/tag/v1
+sudo dpkg -i the_aaroh_browser.deb
 rm /tmp/the-aaroh-browser.deb
+
 
